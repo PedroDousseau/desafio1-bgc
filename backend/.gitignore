@@ -2,4 +2,3 @@
 node_modules
 .serverless
 secrets.json
-serverless.yml
