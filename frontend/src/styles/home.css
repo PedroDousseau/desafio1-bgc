@@ -1,0 +1,89 @@
+/*CONTAINERS*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  /*HEADER*/
+  
+  .title,
+  .description,
+  .author {
+    text-align: left;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 4rem;
+    color: #012e41;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+  
+  .author {
+    margin: 0;
+    font-size: 2rem;
+    color: #024a58;
+    line-height: 1;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #012e41;
+    max-width: 500px;
+  }
+  
+  .description a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+  
+  .description a:hover,
+  .description a:focus,
+  .description a:active {
+    text-decoration: underline;
+  }
+  
+  /**/
+  
+  .listContainer {
+    width: 100%;
+    margin-top: 5rem;
+  }
+  .toolContainer {
+    background-color: #012e41 !important;
+    margin-top: 2px;
+  }
+  .heading {
+    color: #fff;
+  }
+  .details {
+    background-color: #024a58 !important;
+    color: #fff;
+    text-align: left;
+  }
+  .expandMoreIcon {
+    color: #fff;
+  }
+  
+  @media (max-width: 600px) {
+    .grid {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+  
