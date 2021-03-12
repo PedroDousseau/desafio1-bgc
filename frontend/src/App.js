@@ -61,7 +61,7 @@ class App extends Component {
           </p>
  
           <p className="description">
-            Caso precise do arquivo <b>.docx</b>, ele pode ser baixado <a href="./desafio1BGC.docx">aqui.</a>
+            Caso precise do arquivo <b>.docx</b>, ele pode ser baixado <a href="./desafio1-bgc-PedroDousseau.docx">aqui.</a>
           </p>
 
           <div className = "listContainer">
