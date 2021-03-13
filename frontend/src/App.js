@@ -13,7 +13,7 @@ class App extends Component {
   
   async componentDidMount() {
 
-    const url = "https://3qz7u0y2zj.execute-api.sa-east-1.amazonaws.com/production/";
+    const url = "https://ig5n6hkwtg.execute-api.sa-east-1.amazonaws.com/production/";
 
     const response = await fetch(url);
     const data = await response.json();
