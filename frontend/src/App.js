@@ -56,7 +56,7 @@ class App extends Component {
 
           <p className="description">
             Esta aplicação foi criada usando algumas das tecnologias pesquisadas durante o desafio, a fim de compreendê-las mais a fundo.<br/><br/>
-            O front-end foi contruído com <b>ReactJS</b> + <b>Redux</b> e disponibiliza as informações de uma <b>API Express</b> publicada com o <b>Serverless framework</b> e hospedada na <b>AWS</b>.<br/><br/>
+            O front-end foi contruído com <b>ReactJS</b> + <b>Redux</b> e disponibiliza as informações de uma <b>Lambda Function</b> acionada por um evento <b>HTTP</b> gerenciado pela <b>API Gateway da AWS</b>. O deploy do backend foi feito com o <b>Serverless framework</b> e hospedado na <b>AWS</b>.<br/><br/>
             O código fonte pode ser acessado em <a target="_blank" rel="noreferrer" href="https://github.com/PedroDousseau/desafio1-bgc">https://github.com/PedroDousseau/desafio1-bgc</a>
           </p>
  
