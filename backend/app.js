@@ -1,9 +1,5 @@
 'use strict';
 
-const express = require('express')
-const sls = require('serverless-http')
-const app = express()
-
 const tools = [
   {
     name: 'API REST',
@@ -63,11 +59,14 @@ const tools = [
   }
 ]
 
-app.get('/', async (req, res, next) => {
-
-  res.set('Access-Control-Allow-Origin', '*')
-  res.set('Access-Control-Allow-Credentials', 'true')
-
-  res.status(200).send(tools)
-})
-module.exports.server = sls(app)
+module.exports.app = async (event) => {
+  return {
+    statusCode: 200,
+    body: JSON.stringify(
+      tools
+      ,
+      null,
+      2
+    ),
+  };
+}

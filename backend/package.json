@@ -2,15 +2,12 @@
   "name": "serverless-nodejs-app",
   "version": "1.0.0",
   "description": "",
-  "main": "handler.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "serverless-http": "^2.7.0"
-  }
+  "dependencies": {}
 }
